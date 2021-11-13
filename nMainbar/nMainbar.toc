@@ -1,0 +1,5 @@
+## Interface: 90105
+## Title: |cff8cccc4 n|rMainbar
+## Author: Narden
+
+core.lua

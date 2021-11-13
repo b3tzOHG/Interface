@@ -1,0 +1,9 @@
+## Interface: 90105
+## Title: |cff8cccc4 n|rMinimap
+## Author: Narden
+
+core.lua
+calendar.lua
+capture.lua
+clock.lua
+difficulty.lua
