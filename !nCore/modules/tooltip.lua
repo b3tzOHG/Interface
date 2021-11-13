@@ -1,14 +1,17 @@
 cfg = {
 	fontSize = 15, 
-	
+	-- tooltip an maus
 	anchormouse = false,
-	
+	-- tooltip position
+	position = {"BOTTOMRIGHT", UIParent, -32, 225},
 	abbrevRealmNames = true,
     showPlayerTitles = true,
-   
 	showMouseoverTarget = true,
 	
+	-- tooltip Farbe
 	bgColor = {0.08,0.08,0.1,0.8},
+	
+	-- tooltip Border Farbe
 	borderColor = {0,0,0,1},
 }
 
@@ -141,7 +144,7 @@ hooksecurefunc("GameTooltip_SetDefaultAnchor", function(self, parent)
 	else
 		self:SetOwner(parent, "ANCHOR_NONE")
 		self:ClearAllPoints()
-		self:SetPoint("BOTTOMRIGHT", UIParent, -32, 225)
+		self:SetPoint(unpack(cfg.position))
 	end
 end)
 
