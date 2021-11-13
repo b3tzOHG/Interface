@@ -1,0 +1,29 @@
+-- -- >> Move Blizzard Bags
+-- hooksecurefunc("UpdateContainerFrameAnchors", function()
+	-- local frame, screenHeight, freeScreenHeight, column
+	-- --local xOffset = 80
+	-- local xOffset = 30
+	-- local yOffset = 50
+
+	-- screenHeight = GetScreenHeight() / 1
+	-- freeScreenHeight = screenHeight - 2*yOffset
+	
+	-- column = 0
+	-- for index, frameName in ipairs(ContainerFrame1.bags) do
+		-- frame = _G[frameName]
+		-- frame:SetScale(1)
+		-- if ( index == 1 ) then
+			-- -- First bag
+			-- frame:SetPoint("BOTTOMRIGHT", frame:GetParent(), "BOTTOMRIGHT", -xOffset, yOffset)
+		-- elseif ( freeScreenHeight < frame:GetHeight() ) then
+			-- -- Start a new column
+			-- column = column + 1
+			-- freeScreenHeight = screenHeight - yOffset
+			-- frame:SetPoint("BOTTOMRIGHT", frame:GetParent(), "BOTTOMRIGHT", -(column * CONTAINER_WIDTH) - xOffset, yOffset)
+		-- else
+			-- -- Anchor to the previous bag
+			-- frame:SetPoint("BOTTOMRIGHT", ContainerFrame1.bags[index - 1], "TOPRIGHT", 0, CONTAINER_SPACING)
+		-- end
+		-- freeScreenHeight = freeScreenHeight - frame:GetHeight() - VISIBLE_CONTAINER_SPACING
+	-- end
+-- end)

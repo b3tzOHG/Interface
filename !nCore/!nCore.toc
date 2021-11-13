@@ -1,0 +1,21 @@
+## Interface: 90105
+## Title: |cff8cccc4 n|rCore
+## Author: Narden
+
+color.lua
+core.lua
+
+modules\align.lua
+modules\fonts.lua
+modules\stats.lua
+modules\altbuy.lua
+modules\objectivetracker.lua
+modules\warning.lua
+modules\install.lua
+modules\autoaccept.lua
+modules\panel.lua
+modules\tooltip.lua
+modules\errors.lua
+modules\bag.lua
+modules\durability.lua
+modules\vignette.lua
