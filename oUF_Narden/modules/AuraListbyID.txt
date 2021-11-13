@@ -1,0 +1,687 @@
+RaidDebuffs = {
+		[233375] = false, -- Gaze of Aman'thul
+		[218888] = true, -- Impish Flames
+		[217925] = true, -- Icy Comet
+		[217966] = true, --Howling Gale
+		[218012] = true, --Arcanopulse
+		[219602] = true, --Snow Plow
+		[223373] = true, --Yaksam
+		[223355] = true, --Oozing Bile
+		[216430] = true, --Earthshake Stomp
+		[216467] = true, --Make the Snow
+		[216822] = true, --You Go Bang!
+		[170196] = true, --Rending Whirl
+		[217362] = true, --Turbulent Vortex
+		[219349] = true, --Corroding Spray
+		[212867] = true, --Electrical Storm
+		[212852] = true, --Storm Breath
+		[215876] = true, --Burning Earth
+		[216044] = true, --Cry of the Tormented
+		[213665] = true, --Marauding Mists
+		[209858] = true, -- necrotic
+		[221772] = true, --
+		[58517] = true, -- Grievous Wound
+
+--Antorus, the Burning Throne
+		--Varimathras     --
+		[244042] = false,     -- Marked Prey
+		[243999] = false,     -- Dark Fissure
+		[244093] = true,     -- Necrotic Embrace
+		[243961] = true,     -- Misery
+		[243980] = false,     -- Torment of Fel
+		[243968] = false,     -- Torment of Flames
+		[243977] = false,     -- Torment of Frost
+		[243974] = false,     -- Torment of Shadows
+		[248732] = false,     -- Echoes of Doom
+		
+		--Aggramar     --
+		[243431] = true,     -- Taeshalach's Reach
+		[245995] = true,     -- Scorching Blaze
+		[246014] = true,     -- Searing Tempest
+		[244912] = true,     -- Blazing Eruption
+		[244291] = true,     -- Foe Breaker
+		[244736] = true,     -- Wake of Flame
+		[245916] = true,     -- Molten Remnants
+		[254452] = true,     -- Ravenous Blaze
+		[247079] = true,     -- Empowered Flame Rend
+		[255062] = true,     -- Empowered Searing Tempest
+		[255060] = true,     -- Empowered Foe Breaker
+		[255528] = true,     -- Searing Binding
+		
+		--Hasabel     --
+		[245157] = true,     -- Everburning Light
+		[244853] = true,     -- Caustic Detonation
+		[245075] = true,     -- Hungering Gloom
+		[244016] = true,     -- Reality Tear
+		[245240] = true,     -- Oppressive Gloom
+		[245118] = true,     -- Cloying Shadows
+		[245099] = true,     -- Mind Fog
+		[244613] = true,     -- Everburning Flames
+		[245050] = true,     -- Delusions
+		[245040] = true,     -- Corrupt
+		[244849] = true,     -- Caustic Slime
+		[244915] = true,     -- Poison Essence
+		[244915] = true,     -- Leech Essence
+		[244949] = true,     -- Felsilk Wrap
+		[246208] = true,     -- Acidic Web
+		[244709] = true,     -- Fiery Detonation
+		
+		--Noura     --
+		[250095] = true,     -- Machinations of Aman'Thul
+		[245586] = true,     -- Chilled Blood
+		[245518] = true,     -- Flashfreeze
+		[244899] = true,     -- Fiery Strike
+		[253203] = true,     -- Shivan Pact
+		[253520] = true,     -- Fulminating Pulse
+		[253752] = true,     -- Sense of Dread
+		[245627] = true,     -- Whirling Saber
+		[253697] = true,     -- Orb of Frost
+		[252861] = true,     -- Storm of Darkness
+		[246763] = true,     -- Fury of Golganneth
+		[245921] = true,     -- Spectral Army
+		[245671] = true,     -- Flames of Khaz'goroth
+		[250757] = true,     -- Cosmic Glare
+		
+		--Fharg     --
+		[248815] = true,     -- Enflamed
+		[244057] = true,     -- Enflame Corruption
+		[244768] = true,     -- Desolate Gaze
+		[254760] = true,     -- Corrupting Maw
+		[244071] = true,     -- Weight of Darkness
+		[248819] = true,     -- Siphoned
+		[244056] = true,     -- Siphon Corruption
+		[248815] = true,     -- Enflamed
+		[251445] = true,     -- Smouldering
+		[244091] = true,     -- Singed
+		[244517] = true,     -- Lingering Flames
+		[245098] = true,     -- Decay
+		[251445] = true,     -- Smouldering
+		[245024] = true,     -- Consumed
+		[244086] = true,     -- Molten Touch
+		[244055] = true,     -- Shadowtouched
+		[244054] = true,     -- Flametouched
+		[245022] = true,     -- Burning Remnant
+		
+		--Garothi     --
+		[244395] = true,     -- Searing Barrage
+		[244410] = true,     -- Decimation
+		[246848] = true,     -- Luring Destruction
+		[244536] = true,     -- Fel Bombardment
+		[246920] = true,     -- Haywire Decimation
+		[246848] = true,     -- Luring Destruction
+		
+		--Svirax     --
+		[244910] = true,     -- Felshield
+		[244172] = true,     -- Psychic Assault
+		[257974] = true,     -- Chaos Pulse
+		[244892] = true,     -- Exploit Weakness
+		[245121] = true,     -- Entropic Blast
+		[253037] = true,     -- Demonic Charge
+		[244388] = true,     -- Psychic Scarring
+		[244748] = true,     -- Shocked
+		
+		--Kingaroth     --
+		[248061] = true,     -- Purging Protocol
+		[246706] = true,     -- Demolish
+		[244312] = true,     -- Forging Strike
+		[249535] = true,     -- Demolished
+		[246687] = true,     -- Decimation
+		[246840] = true,     -- Ruiner
+		
+		--Imonar     --
+		[248321] = true,     -- Conflagration
+		[248424] = true,     -- Gathering Power
+		[247641] = true,     -- Stasis Trap
+		[247552] = true,     -- Sleep Canister
+		[247565] = true,     -- Slumber Gas
+		[247367] = true,     -- Shock Lance
+		[247687] = true,     -- Sever
+		[250255] = true,     -- Empowered Shock Lance
+		[250006] = true,     -- Empowered Pulse
+		[255029] = true,     -- Asleep
+		[247716] = true,     -- Charged Blasts
+		[250224] = true,     -- Shocked
+		[247949] = true,     -- Shrapnel Blast
+		[254181] = true,     -- Seared Skin
+		[248255] = true,     -- Infernal Rockets
+		
+		--Eonar     --
+		[248326] = true,     -- Rain of Fel
+		[248333] = true,     -- Meteor Storm
+		[248861] = true,     -- Spear of Doom
+		[248795] = true,     -- Fel Wake
+		[250691] = true,     -- Burning Embers
+		[250140] = true,     -- Foul Steps
+		[249016] = true,     -- Targeted
+		[249017] = true,     -- Arcane Singularity
+		[249014] = true,     -- Feedback: Foul Steps
+		[249015] = true,     -- Feedback: Burning Embers
+		
+		--Argus     --
+		[248499] = true,     -- Sweeping Scythe
+		[255199] = true,     -- Avatar of Aggramar
+		[251570] = true,     -- Soulbomb
+		[250669] = true,     -- Soulburst
+		[257313] = false,     -- Gift of the Sky
+		[257306] = false,     -- Gift of the Sea
+		[258039] = true,     -- Deadly Scythe
+		[248396] = true,     -- Soulblight
+		[253901] = false,     -- Strength of Sea
+		[253903] = false,     -- Strength of Sky
+		[255200] = false,     -- Aggramar’s Boon
+		[257299] = true,     -- Ember of Rage
+		[252729] = true,     -- Cosmic Ray
+		[252634] = true,     -- Cosmic Smash
+		[257215] = true,     -- Titanforged
+		[248167] = true,     -- Death Fog
+		[256899] = true,     -- Soul Detonation
+		[251815] = true,     -- Edge of Obliteration
+		[257299] = true,     -- Ember of Rage
+		[258373] = true,     -- Grasp
+		[257961] = true,     -- Chains of Sargeras
+		[257966] = true,     -- Sentence of Sargeras
+		[258026] = true,     -- Punishment
+		[258000] = true,     -- Shattered Bonds
+		[257930] = true,     -- Crushing
+		[257931] = false,     -- Sargeras Fear
+		[257869] = true,     -- Unleashed
+		[257911] = false,     -- Sargeras Rage		
+	
+--Tomb of Sargeras
+			-- Goroth
+		[233279] = true, -- Shattering Star
+		[230345] = true, -- Crashing Comet
+		[231363] = true, -- Burning Armor
+
+		-- Demonic Inquisition
+		[233430] = true, -- Ubearable Torment
+		[233983] = true, -- Echoing Anguish
+
+		-- Harjatan
+		[231770] = true, -- Drenched
+		[231998] = true, -- Jagged Abrasion
+
+		-- Sisters of the Moon
+		[236603] = true, -- Rapid Shot
+		[234996] = true, -- Umbra Suffusion
+		[234995] = true, -- Lunar Suffusion
+		[236519] = true, -- Moon Burn
+		[236697] = true, -- Deathly Screech
+		[236550] = true, -- Discorporate
+		[239264] = true, -- Lunar Fire
+
+		-- Mistress Sassz'ine
+		[230959] = true, -- Concealing Murk
+		[232722] = true, -- Slicing Tornado
+		[232913] = true, -- Befouling Ink
+		[234621] = true, -- Devouring Maw
+		[230201] = true, -- Burden of Pain
+
+		-- The Desolate Host
+		[236072] = true, -- Wailing Souls
+		[236449] = true, -- Soulbind
+		[236515] = true, -- Shattering Scream
+		[235989] = true, -- Tormented Cries
+		[236131] = true, -- Wither
+
+		-- Maiden of Vigilance
+		[235117] = true, -- Unstable Soul
+		[235534] = false, -- Creator's Grace
+		[235538] = false, -- Demon's Vigor
+		[234891] = true, -- Wrath of the Creators
+		[235569] = true, -- Hammer of Creation
+		[235573] = true, -- Hammer of Obliteration
+
+		-- Fallen Avatar
+		[239058] = true, -- Touch of Sargeras
+		[239739] = true, -- Dark Mark
+		[234059] = false, -- Unbound Chaos
+		[240213] = true, -- Chaos Flames
+		[236604] = true, -- Shadowy Blades
+		[236494] = true, -- Desolate
+		[240728] = true, -- Tainted Essence
+
+		-- Kil'jaeden
+		[238999] = true, -- Darkness of a Thousand Souls
+		[239155] = true, -- Gravity Squeeze
+		[234295] = true, -- Armageddon Rain
+		[240908] = true, -- Armageddon Blast
+		[239932] = true, -- Felclaws
+		[240911] = true, -- Armageddon Hail
+
+--Black Rook Hold
+			-- Trash
+			[200084] = true, -- Soul Blade
+			[225908] = true, -- Soul Venom
+			[225962] = true, -- Bloodthirsty Leap
+			[200261] = true, -- Bonebreaking Strike
+			[222397] = true, -- Bolder Crush
+			[214001] = true, -- Raven's Dive
+			-- Amalgam of Souls
+			[194966] = true, -- Soul Echo
+			[194956] = true, -- Reap Soul
+			[194960] = true, -- Soul Echoes
+			-- Illysanna Ravencrest
+			[197546] = true, -- Brutal Glaive
+			[197484] = true, -- Dark Rush
+			[197521] = true, -- Blazing Trail
+			[197418] = true, -- Vengeful Shear
+			[197687] = true, -- Eye Beams
+			[197821] = true, -- Felblazed Ground
+			-- Smashpite the Hateful
+			[198245] = true, -- Brutal Haymaker
+			[198446] = true, -- Fel Vomit
+			[198501] = true, -- Fel Vomitus
+			[198079] = true, -- Hateful Gaze
+			[224188] = true, -- Hateful Charge
+			-- Lord Ravencrest
+			[198635] = true, -- Unerring Shear
+			[199143] = true, -- Cloud of Hypnosis
+			[201733] = true, -- Stinging Swarm
+
+--Court of Stars
+			-- Trash
+			[215204] = true, -- Hinder
+			[209027] = true, -- Quelling Strike
+			[209036] = true, -- Throw Torch
+			[209516] = true, -- Mana Fang
+			[209404] = true, -- Seal Magic
+			[209512] = true, -- Disrupting Energy
+			[209413] = true, -- Suppress
+			[212784] = true, -- Eye Storm
+			[211473] = true, -- Shadow Slash
+			[211470] = true, -- Bewitch
+			[211391] = true, -- Felblaze Puddle
+			[211464] = true, -- Fel Detonation
+			[209378] = true, -- Whirling Blades
+			[207980] = true, -- Disintegration Beam
+			[207979] = true, -- Shockwave
+			-- Patrol Captain Gerdo
+			[207261] = true, -- Resonsnt Slash
+			[207278] = true, -- Arcane Lockdown
+			-- Talixae Flamewreath 
+			[208165] = true, -- Withering Soul
+			[224375] = true, -- Drifting Embers
+			[211457] = true, -- Infernal Eruption 
+			-- Gerenth the Vile
+			[214690] = true, -- Cripple
+			[214688] = true, -- Carrion Swarm
+			[214692] = true, -- Shadow Bolt Volley
+			-- Advisor Melandrus
+			[209676] = true, -- Slicing Maelstrom
+			[209602] = true, -- Blade Surge
+			[224333] = true, -- Enveloping Winds
+
+--Darkheart Thicket
+			-- Trash
+			[200620] = true, -- Frantic Rip
+			[225484] = true, -- Grievous Rip
+			[198477] = true, -- Fixate
+			[218759] = true, -- Corruption Pool
+			[200684] = true, -- Nightmare Toxin
+			[200631] = true, -- Unnerving Screech
+			[200642] = true, -- Despair
+			[200580] = true, -- Maddening Roar
+			[200771] = true, -- Propelling Charge - Stun
+			[198904] = true, -- Poison Spear
+			[204243] = true, -- Tormenting Eye
+			[204246] = true, -- Tormenting Fear
+			[201400] = true, -- Dread Inferno
+			[201902] = true, -- Scorching Shot
+			[201842] = true, -- Curse of Isolation
+			[201365] = true, -- Darksoul Drain
+			-- Archdruid Glaidalis
+			[198408] = true, -- Nightfall
+			[196376] = true, -- Grievous Tear
+			-- Oakheart
+			[204574] = true, -- Strangling Roots
+			[204611] = true, -- Crushing Grip
+			[204667] = true, -- Nightmare Breath
+			-- Dresaron
+			[199460] = true, -- Falling Rocks
+			[191326] = true, -- Breath of Corruption
+			-- Xavius
+			[200289] = true, -- Growing Paranoia
+			[200329] = true, -- Overwhelming Terror
+			[200182] = true, -- Festering Rip
+			[200238] = true, -- Feed on the Weak
+			[200243] = true, -- Waking Nightmare
+			[200273] = true, -- Cowardice			
+ 
+--Eye of Azshara
+			-- Trash
+			[195094] = true, -- Coral Slash
+			[196870] = true, -- Storm
+			[195129] = true, -- Thundering Stomp
+			[197144] = true, -- Hooked Net
+			[195105] = true, -- Crunching Bite
+			[197105] = true, -- Polymorph: Fish
+			[195473] = true, -- Abrasive Slime
+			[193636] = true, -- Watery Splash
+			[196111] = true, -- Jagged Claws
+			[196129] = true, -- Spray Sand
+			[196154] = true, -- Blinding Sands
+			[195561] = true, -- Blinding Peck
+			[196064] = true, -- Tearing Bite
+			[196058] = true, -- Lethargic Toxin
+			[196060] = true, -- Numbing Toxin
+			[196059] = true, -- Sea-Brine Toxin
+			[195944] = true, -- Rising Fury
+			[195801] = true, -- Massive Quake
+			-- Warlord Parjesh
+			[192094] = true, -- Impaling Spear
+			[192131] = true, -- Throw Spear
+			[192053] = true, -- Quicksand
+			-- Lady Hatecoil
+			[193597] = true, -- Static Nova
+			[193716] = true, -- Curse of the Witch
+			[196610] = true, -- Monsoon
+			-- Serpentix
+			[191855] = true, -- Toxic Wound
+			[192050] = true, -- Poison Spit
+			[192003] = true, -- Blazing Nova
+			-- King Deepbeard
+			[193171] = true, -- Aftershock
+			[193018] = true, -- Gaseous Bubbles
+			[193051] = true, -- Call the Seas
+			-- Wrath of Azshara
+			[192706] = true, -- Arcane Bomb
+			[196515] = true, -- Magic Binding
+			[192696] = true, -- Raging Storms
+			[197365] = true, -- Crushing Depths
+			[196666] = true, -- Frost Resonance
+			[196665] = true, -- Magic Resonance
+	
+--Halls of Valor
+			-- Trash
+			[198605] = true, -- Thunderstrike
+			[198892] = true, -- Crackling Storm
+			[199805] = true, -- Crackle
+			[198959] = true, -- Etch
+			[198944] = true, -- Breach Armor
+			[199050] = true, -- Mortal Hew
+			[192563] = true, -- Cleansing Flames
+			[211127] = true, -- Eye of the Storm
+			-- Hymdall
+			[193260] = true, -- Static Field
+			[193235] = true, -- Dancing Blade
+			[193092] = true, -- Bloodletting Sweep
+			[188395] = true, -- Ball Lightning
+			-- Hyrja
+			[192048] = true, -- Expel Light
+			-- Fenryr
+			[196194] = true, -- Crunch Armor
+			[199341] = true, -- Bear Trap
+			[199146] = true, -- Bucking Charge
+			[199179] = true, -- Leap for the Throat
+			[197556] = true, -- Ravenous Leap
+			-- God-King Skovald
+			[199652] = true, -- Sever
+			[199674] = true, -- Wicked Dagger
+			[202711] = true, -- Aegis of Aggramar
+			[193702] = true, -- Infernal Flames
+			[193686] = true, -- Ragged Slash
+			-- Odyn
+			[198088] = true, -- Glowing Fragment
+	
+--Maw of Souls
+			-- Trash
+			[201397] = true, -- Brackwater Blast
+			[202408] = true, -- Flare
+			[199185] = true, -- Ravenous Bite
+			[194657] = true, -- Soul Siphon
+			[194640] = true, -- Curse of Hope
+			[195279] = true, -- Bind
+			[194099] = true, -- Bile Breath
+			[194102] = true, -- Poisonous Sludge
+			[198375] = true, -- Mortal Strike
+			[198374] = true, -- Hamstring
+			[198405] = true, -- Bone Chilling Scream
+			-- Ymiron
+			[193364] = true, -- Screams of the Dead
+			[193460] = true, -- Bane
+			-- Harbaron
+			[194325] = true, --Fragment
+			[194235] = true, -- Nether Rip
+			-- Helya
+			[195293] = true, -- Debilitation Shout
+			[185539] = true, -- Rapid Rupture
+			[197264] = true, -- Taint of the Sea			
+		
+--Neltharion's Lair
+			-- Trash
+			[183401] = true, -- Acid Splatter
+			[183465] = true, -- Viscid Bile
+			[226385] = true, -- Rancid Ooze
+			[226296] = true, -- Piercing Shards
+			[202181] = true, -- Stone Gaze
+			[186576] = true, -- Petrifying Cloud
+			[186616] = true, -- Petrified
+			[202089] = true, -- Scorch
+			[202231] = true, -- Leech
+			[183560] = true, -- Rancid Pool
+			[183539] = true, -- Barbed Tongue
+			[200154] = true, -- Burning Hatred
+			-- Rokmora
+			[192799] = true, -- Choking Dust
+			[198028] = true, -- Crystalline Ground
+			-- Ularogg Cragshaper
+			[198475] = true, -- Strike of the Mountain
+			[193273] = true, -- Falling Debris
+			-- Naraxas
+			[205549] = true, -- Rancid Maw
+			[210150] = true, -- Toxic Retch
+			[199705] = true, -- Devouring
+			-- Dargrul
+			[216407] = true, -- Lava Geyser
+
+--The Arcway
+			[202158] = true, -- Corrosive
+			[203592] = true, -- Black Plague
+			[210684] = true, -- Siphon essence
+			[211000] = true, -- Nether Wound
+			[16856] = true, --Mortal Strike
+			[196562] = true, -- Volatile Magic
+			[196804] = true, -- Nether Link
+			[211543] = true, -- Devour
+			[220871] = true, -- Unstable Mana
+		
+--Vault of the Wardens
+			[200905] = true, -- Sap Soul
+			[203685] = true, -- Flesh to Stone
+			[206019] = true, -- Corrupted Touch
+			[214804] = true, -- Seed of Corruption
+			[6726] = true, -- Silence
+			[200904] = true, -- Sapped Soul
+			[193164] = true, -- Gift of the Doomsayer
+			[194945] = true, -- Lingering Gaze
+			[196249] = true, -- Meteor
+			[192519] = true, -- Lava
+			[197541] = true, -- Detonation
+			[193069] = true, -- Nightmares
+		
+--Assault on Violet Hold
+		
+
+--Karazhan
+		
+--Emerald Nightmare 209858
+			-- Nythendra
+			[221028] = true, --Unstable decay
+			[204504] = true, --Infested
+			[203045] = true, --Infested Ground
+			[203096] = true, --Rot
+			[204463] = true, --Volatile Rot
+			[203646] = true, --Burst of Corruption
+			
+			-- Ilgynoth
+			[212886] = true, --Nightmare Corruption
+			[215845] = true, --Dispersed Spores
+			[210099] = true, --Fixate
+			[209469] = true, --dot, stacks, magic
+			[209471] = true, --Nightmare explosion
+			[210984] = true, --Eye of Fate
+			[208697] = true, --Mind Flay
+			[208929] = true, --Spew Corruption
+			[215128] = true, --Cursed Blood
+			
+			-- Elerethe Renferal
+			[215307] = true, --Web of Pain
+			[215460] = true, --Necrotic Venom
+			[213124] = true, --Venomous Pool
+			[210850] = true, --Twisting Shadows
+			[215582] = true, --Raking Talons
+			[218519] = true, --Wind Burn
+			[210228] = true, --Dripping Fangs
+			
+			-- Ursoc
+			[197943] = true, --Overwhelm
+			[204859] = true, --Rend Flesh
+			[198006] = true, --Focused Gaze
+			[198108] = true, --Momentum
+			[197980] = true, --Nightmarish Cacophony
+			[205611] = true, --Miasma
+			
+			-- Dragons of Nightmare
+			[203110] = true, --Slumbering Nightmare
+			[203102] = true, --Mark of Ysondre
+			[207681] = true, --Nightmare Bloom
+			[204731] = true, --Wasting Dread
+			[203770] = true, --Defiled Vines
+			[203125] = true, --Mark of Emeriss
+			[203787] = true, --Volatile Infection
+			[203086] = true, --Mark of Lethon
+			[204044] = true, --Shadow Burst
+			[203121] = true, --Mark of Taerar
+			[205341] = true, --Seeping Fog
+			[204078] = true, --Bellowing Roar
+			[214543] = true, --Collapsing Nightmare
+			
+			-- Cenarius
+			[212681] = true, --Cleansed Ground
+			[210279] = true, --Creeping Nightmares
+			[210315] = true, --Nighmare Brambles
+			[213162] = true, --Nightmare Blast
+			[226821] = true, --Desiccation Stomp
+			[211507] = true, --Nightmare Javelin
+			[211471] = true, --Scorned Touch
+			[216516] = true, --Ancient Dream
+			[211989] = true, --Unbound Touch
+			[211990] = true, --Unbound Essence
+			[214529] = true, --Spear of Nightmares
+			
+			-- Xavius
+			[206005] = true, --Dream Simulacrum
+			[206109] = true, --Awakening to the Nightmare
+			[208431] = true, --Descent into Madness
+			[207409] = true, --Madness
+			[206651] = true, --Darkening Soul 
+			[211802] = true, --Nightmare Blades
+			[205771] = true, --Tormenting Fixation
+			[209158] = true, --Blackening Soul
+			[205612] = true, --Blackened
+			[210451] = true, --Bonds of Terror
+			[208385] = true, --Tainted Discharge
+			[211634] = true, --The Infinite Dark
+
+--Trial of Valor
+			[232450] = true, --Corrupted Axion
+			[228883] = true, --Unholy Reckoning
+			
+			-- Guarm
+			[228226] = true, --Flame Lick
+			[228246] = true, --Frost lick
+			[228250] = true, --Shadow Lick
+			[227539] = true, --Fiery Phlegm
+			[227566] = true, --Salty Spittle
+			[227570] = true, --Dark Discharge
+			[228744] = true, --Flaming Volatile Foam
+			[228810] = true, --Briney Volatile Foam 
+			[228818] = true, --Shadowy Volatile Foam
+			
+			-- Helya
+			[227903] = true, --Orb of Corruption
+			[228058] = true, --Orb of Corrosion
+			[228054] = true, --Taint of the Sea
+			[193367] = true, --Fetid Rot
+			[227982] = true, --Bilewater Redox
+			[228519] = true, --Anchor Slam
+			[202476] = true, --Rabid
+			
+			-- Odyn
+			[227959] = true, --Storm of Justice
+			[227475] = true, --Cleansing Flame
+			[192044] = true, --Expel Light
+			[227781] = true, --Glowing Fragment	
+		
+--Nighthold
+			-- Scorpiron
+			[204766] = true, --Energy Surge
+			[214657] = true, --Acidic Fragments
+			[214662] = true, --Volatile Fragments
+			[211659] = true, --Arcane Tether
+			[204471] = true, --Focused Blast
+			
+			-- Chronomatic Anomaly
+			[206607] = true, --Chronometric Particles
+			[206609] = true, --Time Release
+			[212099] = true, --Temporal Charge
+			
+			-- Trilliax
+			[206482] = true, --Arcane Seepage
+			[206788] = true, --Toxic Slice
+			[214573] = true, --Stuffed
+			[211615] = true, -- Strerilize
+			
+			-- Spellblade Aluriel
+			[212492] = true, --Annihilate
+			[212587] = true, --Mark of Frost
+			[212647] = true, --Frostbitten
+			[212736] = true, --Pool of Frost
+			[213083] = true, --Frozen Tempest
+			[213166] = true, --Searing Brand
+			[213278] = true, --Burning Ground
+			[213504] = true, --Arcane Fog
+			[230414] = true, --Fel Stomp
+			
+			-- Tichondrius
+			[206480] = true, --Carrion Plague
+			[213238] = true, --Seeker Swarm
+			[212795] = true, --Brand of Argus
+			[208230] = true, --Feast of Blood
+			[216024] = true, --Volatile Wound
+			[216040] = true, --Burning Soul
+			
+			-- Krosus
+			[208203] = true, --Isolated Rage
+			[206677] = true, --Searing Brand
+			
+			-- High Botanist
+			[218502] = true, --Recursive Strikes
+			[219049] = true, --Toxic Spores
+			[218424] = true, --Parasitic Fetter
+			[218809] = true, --Call of Night
+			
+			-- Star Augur
+			[206464] = true, -- Coronal Ejection
+			[206585] = true, --Absolute Zero
+			[206936] = true, --Icy Ejection
+			[206388] = true, --Felburst
+			[205649] = true, --Fel Ejection
+			[206965] = true, --Voidburst
+			[207143] = true, --Void Ejection
+			[206398] = true, -- Stack Gift
+			
+			-- Elisande
+			[211258] = true, --Permeliative Torment
+			[209599] = true, -- Conflexive Burst
+			
+			-- Gul'dan
+			[212568] = true, --Drain
+			[206883] = true, --Soul Vortex
+			[206222] = true, --Bonds of Fel
+			[206221] = true, --Empowered Bonds of Fel
+			[208672] = true, --Carrion Wave
+			[208903] = true, --Burning Claws
+			[208802] = true, --Soul Corrosion
+}

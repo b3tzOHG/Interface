@@ -1,0 +1,27 @@
+## Interface: 90105
+## Title: |cff8cccc4 oUF|r_Narden
+## Author: Narden
+
+cfg.lua
+
+modules\oUF_ArtifactPower.lua
+modules\oUF_Experience.lua
+modules\oUF_AuraList.lua
+modules\oUF_AuraWatch.lua
+modules\oUF_DebuffHighlight.lua
+modules\oUF_FloatingCombatFeedback.lua
+modules\oUF_SpellRange.lua
+modules\oUF_GCD.lua
+
+lib\tags.lua
+lib\func.lua
+
+templates\player.lua
+templates\target.lua
+templates\targettarget.lua
+templates\focus.lua
+templates\pet.lua
+templates\boss.lua
+templates\party.lua
+templates\nameplate.lua
+templates\arena.lua
