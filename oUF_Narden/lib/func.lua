@@ -145,15 +145,18 @@ end
 L.F.createRunes = createRunes
 
 local function ClassPowerPostUpdate(self, cur, max, hasMaxChanged, powerType)
-	if not max or not cur then return end
-	for i = 1, 10 do
-		self[i]:SetWidth(((widthBig)/max)-((max-1)/max))
-		if i == 1 then
-			--self[i]:SetPoint('TOPLEFT', oUF_NardenPlayer, 'BOTTOMLEFT', 0, -1)
-			self[i]:SetPoint('BOTTOMLEFT', oUF_NardenPlayer, 'TOPLEFT', 0, 1)
-		else
-			self[i]:SetPoint('BOTTOMLEFT', oUF_NardenPlayer, 'TOPLEFT', (i -1) * (self[i]:GetWidth()+1) , 1)
-			--self[i]:SetPoint('TOPLEFT', oUF_NardenPlayer, 'BOTTOMLEFT', (i -1) * (self[i]:GetWidth()+1) , -1)
+	if not max or not cur then 
+		oUF_NardenPlayer.Health:SetPoint('TOP', 0, 0)
+	end
+	if max or cur then
+		oUF_NardenPlayer.Health:SetPoint('TOP', 0, -6)
+		for i = 1, 10 do
+			self[i]:SetWidth(((widthBig)/max)-((max-1)/max))
+			if i == 1 then
+				self[i]:SetPoint('TOPLEFT', oUF_NardenPlayer, 'TOPLEFT', 0, 0)
+			else
+				self[i]:SetPoint('TOPLEFT', oUF_NardenPlayer, 'TOPLEFT', (i-1)*(self[i]:GetWidth()+1), 0)
+			end
 		end
 	end
 end
@@ -164,8 +167,7 @@ local function createClassPower(self)
 	for index = 1, 10 do 
 		local Bar = CreateFrame('StatusBar', nil, self)
 		Bar:SetSize(widthBig, heightPower)
-		Bar:SetPoint('BOTTOMLEFT', self, 'TOPLEFT',(index - 1) * Bar:GetWidth()+1, 1)
-		--Bar:SetPoint('TOPLEFT', self, 'BOTTOMLEFT',(index - 1) * Bar:GetWidth()+1, -1)
+		Bar:SetPoint('TOPLEFT', self, 'TOPLEFT', (index-1)* Bar:GetWidth()+1, 0)
 		L.F.createBD(Bar, Bar, 0, 0, 0, 1)
 		ClassPower[index] = Bar
 	end
